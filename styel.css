@@ -1,0 +1,150 @@
+/* default */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.fixed-width{
+  width: 1000px; 
+  margin: auto;
+}
+/* Header */
+.header{
+    margin: auto;
+    background-color:#2992de;
+}
+.header-laft{
+    width: 30%;
+    float: left;
+}
+.header-laft img{
+    width: 110px;
+    height: auto;
+    margin-left: 70px;
+   
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    font-size: 20px;
+    display: block;
+    color:rgba(255, 255, 255, 0.61) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    line-height: 50px;
+    border-right: 1px solid white;
+    transition: .6s;
+}
+.header-right ul li a:hover{
+    background-color: #0c2538;
+    color: white;
+    border-radius: 3px;
+}
+/* baner section */
+.baner-section{
+    background: url(./img/images.jfif) no-repeat center;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.baner-conten{
+    width: 500px;
+}
+.baner-conten h2{
+    margin-left: 100px;
+    font-size: 35px;
+    color: white;
+    transition: .8s;
+}
+.baner-conten h2:hover{
+    transform: scale(1.2);
+}
+.baner-conten h1{
+    color: white;
+    font-size: 50px;
+    transition: .8s;
+}
+.baner-conten h1:hover{
+    transform: scale(1.2);
+}
+/* forom */
+.conten{
+    background-color: antiquewhite;
+}
+.frem{
+    width: 600px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.frem h2{
+    padding: 20px 10px;
+    font-size: 30px;
+}
+.frem p{
+    
+}
+/* service */
+.service-menu{
+    background-color: aquamarine;
+    text-align: center;
+}
+.service-left{
+    
+}
+.box{
+  width: 32%;
+  float: left;
+ margin-top: 30px;
+  padding: 10px px;
+  border: 1px solid black;
+  margin-left: 9px;
+  border-radius: 4px;
+  background-color: aliceblue;
+  transition: .8s;
+}
+.box:hover{
+    background-color: rgb(167, 202, 202);
+}
+.service-img img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.service-detiles h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.703);
+}
+.footer-left{
+    color: aliceblue;
+    text-align: center;
+}
+.footer-left p{
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+
+
